@@ -1,7 +1,4 @@
 def __main__(argv)
-  if argv[1] == "version"
-    puts "v#{Nmb::VERSION}"
-  else
-    puts "Hello World"
-  end
+  $0 = argv.shift
+  Nmb::Cli.start(argv)
 end

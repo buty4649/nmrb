@@ -1,6 +1,7 @@
 def gem_config(conf)
   conf.gembox 'full-core'
 
+  conf.gem :github => 'Asmod4n/mruby-uri-parser'
   conf.gem :github => 'iij/mruby-io'
   conf.gem :github => 'iij/mruby-env'
   conf.gem :github => 'iij/mruby-dir'
@@ -17,6 +18,7 @@ def gem_config(conf)
   conf.gem :github => 'matsumoto-r/mruby-uname'
   conf.gem :github => 'matsumoto-r/mruby-mutex'
   conf.gem :github => 'matsumoto-r/mruby-localmemcache'
+  conf.gem :github => 'qtkmz/mruby-hogun'
 
   # add Test module
   conf.gem :github => 'iij/mruby-mtest'
