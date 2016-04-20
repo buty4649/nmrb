@@ -1,2 +1,2 @@
-# nmb
+# nmrb
 ngx_mruby cli tool

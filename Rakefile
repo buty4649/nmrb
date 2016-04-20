@@ -8,7 +8,7 @@ file :mruby do
   FileUtils.mv("mruby-1.2.0", "mruby")
 end
 
-APP_NAME=ENV["APP_NAME"] || "nmb"
+APP_NAME=ENV["APP_NAME"] || "nmrb"
 APP_ROOT=ENV["APP_ROOT"] || Dir.pwd
 # avoid redefining constants in mruby Rakefile
 mruby_root=File.expand_path(ENV["MRUBY_ROOT"] || "#{APP_ROOT}/mruby")

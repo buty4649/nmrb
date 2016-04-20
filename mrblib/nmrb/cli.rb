@@ -1,4 +1,4 @@
-module Nmb
+module Nmrb
   class Cli < Hogun
 
     class SandBox
@@ -18,7 +18,7 @@ module Nmb
 
     desc "version", "show version"
     def version()
-      puts "v#{Nmb::VERSION}"
+      puts "v#{Nmrb::VERSION}"
     end
 
     desc "exec </path/to/mruby.rb> <URL>", "exec ngx_mruby scripts"

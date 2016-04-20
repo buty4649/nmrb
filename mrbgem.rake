@@ -1,8 +1,8 @@
-MRuby::Gem::Specification.new('nmb') do |spec|
+MRuby::Gem::Specification.new('nmrb') do |spec|
   spec.license = 'MIT'
-  spec.author  = 'MRuby Developer'
-  spec.summary = 'nmb'
-  spec.bins    = ['nmb']
+  spec.author  = 'buty4649'
+  spec.summary = 'nmrb'
+  spec.bins    = ['nmrb']
 
   spec.add_dependency 'mruby-print', :core => 'mruby-print'
   spec.add_dependency 'mruby-mtest', :mgem => 'mruby-mtest'
